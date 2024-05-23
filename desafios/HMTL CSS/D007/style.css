@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(172, 221, 202);
+  
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: rgb(15, 13, 167);
+    font-style: italic;
+    
+}
+p{
+  font-family: sans-serif;
+  font-size: 18px;
+}
