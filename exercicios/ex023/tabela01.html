@@ -9,13 +9,16 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            border-collapse: collapse;
+            border-collapse: collapse; /*faz a borda sem espaço*/
         }
         
         td{
             border: 1px solid black;
-            width: 100px;
+            width: 200px;
+            height: 200px;
             padding: 7px;
+            text-align: center;
+            vertical-align: top;
         }
         .dado{
             background-color: lightgrey;
@@ -25,11 +28,11 @@
 <body>
     <h1>Minha Primeira tabela</h1>
 
-    <table>
-        <tr> <!--Primeira linha-->
-            <td class="dado">T1</td>
-            <td class="dado">T2</td>
-            <td class="dado">T3</td>
+    <table> <!--Cria a estrutura da tabela-->
+        <tr class="dado"> <!--Cria a linha-->
+            <td>T1</td>
+            <td>T2</td> <!--Cria o dado-->
+            <td>T3</td>
         </tr>
         <tr> <!--Segunda linha-->
             <td>T1</td>
