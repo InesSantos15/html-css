@@ -24,3 +24,6 @@ td, th{
 .num{
     text-align: right;
 }
+.num#rodape{
+    background-color: #8a8a8a;
+}
