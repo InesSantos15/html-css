@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 600px;
+}
+th, td{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+td{
+    text-align: center;
+}
+.titulo{
+    background-color: #5f5f5f;
+    color: #ffffff;
+}
+.media{
+    background-color: #5f5f5f;
+    color: #ffffff;
+    text-align: left;
+}
+.media#total1, #total2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
