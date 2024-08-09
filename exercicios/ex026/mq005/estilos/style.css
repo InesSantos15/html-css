@@ -14,6 +14,24 @@ header{
     padding-top: 20px;
     text-align: center;
 }
+header h1{
+    margin-bottom: 20px;
+}
+i#burguer{
+    background-color: dimgray;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+i#burguer:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+nav{
+    display: none;
+}
 nav a{
     text-decoration: none;
     color: white;
@@ -27,7 +45,7 @@ nav a:hover{
 }
 ul{
     list-style-type: none;
-    margin-top: 10px;
+    
 }
 main{
     background-color: #fff;
