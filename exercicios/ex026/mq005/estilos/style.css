@@ -37,8 +37,10 @@ nav a{
     color: white;
     display: block;
     padding: 10px;
+    margin-bottom: 8px;
     background-color: dimgray;
-    border-bottom: 3px solid lightgray;  
+    border-bottom: 3px solid dimgray;  
+    border-radius: 5px 5px 5px 5px;
 }
 nav a:hover{
     border-bottom: 3px solid #252525ab;
